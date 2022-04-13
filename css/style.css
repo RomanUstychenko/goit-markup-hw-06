@@ -469,6 +469,7 @@ img {
                 0px 1px 1px rgba(0, 0, 0, 0.14), 
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px;
 }
 .modal-close-button {
     position: absolute;
@@ -484,6 +485,27 @@ img {
     border-color: transparent;
     padding: 0;
     cursor: pointer;
+}
+.contact-form-title {
+    display: block;
+    /* padding-top: 40px; */
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-font-color);
+}
+.contact-form-field {
+    display: block;
+}
+.contact-form-input {
+    width: 100%;
+}
+.contact-form-message {
+    width: 100%;
+    height: 120px;
 }
 /* ======START PORTFOLIO====== */
 .list-portfolio {

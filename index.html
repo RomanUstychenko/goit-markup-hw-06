@@ -376,8 +376,36 @@
             <use href="./images/svg/sprite.svg#close-icon"></use>
             </svg>
           </button>
-        </div>
+          <b class="contact-form-title">Оставьте свои данные, мы вам перезвоним</b>
+          <form class="contact-form">
+            <label class="contact-form-field">
+                Имя
+                <input name="user_name" class="contact-form-input" type="text" required>
+            </label>
+            <label class="contact-form-field">
+                Телефон
+                <input name="user_tel" class="contact-form-input" type="tel" required>
+            </label>
+            <label class="contact-form-field">
+                Почта
+                <input name="user_mail" class="contact-form-input" type="text" required>
+            </label>
+            <label class="contact-form-field">
+                Коментарий
+                <textarea name="user_message" class="contact-form-message" placeholder="Введите текст"></textarea>
+            </label>
+            <div class="contact-form-checkbox-wrapper">
+                <input name="accept_policy" class="contact-form-checkbox" type="checkbox" required>
+                <label class="contact-form-checkbox-label" for="">
+                    Соглашаюсь с рассылкой и принимаю &nbsp;<a class="" href="">Условия договора</a> 
+                </label>
+                <button type="submit" class="contact-form-btn">Отправить</button>
+            </div>
+          </form>
+        </div>  
     </div>
     <script src="./js/modal.js"></script>
 </body>
 </html>
+
+на 43:30
