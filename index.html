@@ -367,9 +367,22 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-join-subscribe">
+                <p class="footer-join-label">Подпишитесь на рассылку</p>
+                <form class="footer-join-form">
+                    <label for="">
+                        <input class="footer-join-input" type="text" placeholder="E-mail" required>
+                    </label>
+                <button type="submit" class="footer-join-btn">Подписаться
+                    <svg class="footer-join-btn-svg" width="24" height="24">
+                        <use href="./images/svg/sprite.svg#send"></use>
+                    </svg>
+                </button>
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop iis-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="modal-close-button" data-modal-close>
             <svg class="modal-close-icon" width="11" height="11">
@@ -410,12 +423,15 @@
                 <textarea name="user_message" class="contact-form-message" placeholder="Введите текст"></textarea>
             </label>
             <div class="contact-form-checkbox-wrapper">
-                <input name="accept_policy" class="contact-form-checkbox" type="checkbox" required>
-                <label class="contact-form-checkbox-label" for="">
-                    Соглашаюсь с рассылкой и принимаю &nbsp;<a class="" href="">Условия договора</a> 
+                <input  name="accept_policy" 
+                        class="contact-form-checkbox visually-hidden" 
+                        type="checkbox" 
+                        required id="policy-checkbox">
+                <label class="contact-form-checkbox-label" for="policy-checkbox">
+                   Соглашаюсь с рассылкой и принимаю &nbsp;<a class="contact-form-checkbox-link" href="">Условия договора</a>
                 </label>
-                <button type="submit" class="contact-form-btn">Отправить</button>
             </div>
+            <button type="submit" class="contact-form-btn">Отправить</button>
           </form>
         </div>  
     </div>
