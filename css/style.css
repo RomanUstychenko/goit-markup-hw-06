@@ -663,7 +663,7 @@ img {
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
     background-color: var(--accent-color);
-    background-image: url("https://romanustychenko.github.io/goit-markup-hw-06//images/tick.png");
+    background-image: url("/images/tick.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border: 0px;
