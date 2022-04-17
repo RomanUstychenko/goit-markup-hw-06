@@ -662,11 +662,11 @@ img {
     outline: 1px solid rgba(0, 0, 255, 0.5);
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
-    background-image: url(/images/tick.png);
+    background-color: var(--accent-color);
+    background-image: url("https://romanustychenko.github.io/goit-markup-hw-06//images/tick.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border: 0px;
-    background-color: var(--accent-color);
 }
 .contact-form-checkbox-label::before {
     display: inline-block;
